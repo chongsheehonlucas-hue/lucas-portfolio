@@ -3,39 +3,34 @@ import styles from '@/styles/ContactCode.module.css';
 const contactItems = [
   {
     social: 'website',
-    link: 'nitinranganath.com',
-    href: 'https://nitinranganath.com',
+    link: 'lucasdomain.com',
+    href: 'https://www.tp.edu.sg/home.html',
   },
   {
     social: 'email',
-    link: 'nitinranganath@gmail.com',
-    href: 'mailto:nitinranganath@gmail.com',
+    link: 'chongsheehonlucas@gmail.com',
+    href: 'mailto:chongsheehonlucas@gmail.com',
   },
   {
     social: 'github',
-    link: 'itsnitinr',
-    href: 'https://github.com/itsnitinr',
+    link: 'lucaschong123',
+    href: 'https://github.com',
   },
   {
     social: 'linkedin',
-    link: 'nitinranganath',
-    href: 'https://www.linkedin.com/in/nitinranganath/',
+    link: 'Lucas',
+    href: 'https://www.linkedin.com/in/chongsheehonlucas/',
   },
   {
     social: 'twitter',
-    link: 'iamnitinr',
-    href: 'https://www.twitter.com/iamnitinr',
+    link: 'Lucasster',
+    href: '',
   },
   {
     social: 'telegram',
-    link: 'iamnitinr',
-    href: 'https://t.me/iamnitinr',
-  },
-  {
-    social: 'peerlist',
-    link: 'nitinranganath',
-    href: 'https://peerlist.io/nitinranganath',
-  },
+    link: 'lukas',
+    href: '',
+  }
 ];
 
 const ContactCode = () => {

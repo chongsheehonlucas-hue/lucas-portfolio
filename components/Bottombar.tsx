@@ -14,7 +14,7 @@ const Bottombar = () => {
     <footer className={styles.bottomBar}>
       <div className={styles.container}>
         <a
-          href="https://github.com/itsnitinr/vscode-portfolio"
+          href="https://github.com"
           target="_blank"
           rel="noreferrer noopener"
           className={styles.section}
@@ -36,7 +36,7 @@ const Bottombar = () => {
         </div>
         <div className={styles.section}>
           <VscCheck className={styles.icon} />
-          <p>Prettier</p>
+          <p>Lucas</p>
         </div>
         <div className={styles.section}>
           <VscBell />

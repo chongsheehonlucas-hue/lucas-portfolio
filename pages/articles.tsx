@@ -11,11 +11,11 @@ interface ArticlesPageProps {
 const ArticlesPage = ({ articles }: ArticlesPageProps) => {
   return (
     <div className={styles.layout}>
-      <h1 className={styles.pageTitle}>My Articles</h1>
+      <h1 className={styles.pageTitle}>My Achievements</h1>
       <p className={styles.pageSubtitle}>
         Recent posts from{' '}
         <a
-          href="https://dev.to/itsnitinr"
+          href="https://gov.sg"
           target="_blank"
           rel="noopener"
           className={styles.underline}
@@ -34,21 +34,30 @@ const ArticlesPage = ({ articles }: ArticlesPageProps) => {
 };
 
 export async function getStaticProps() {
-  const res = await fetch(
-    'https://dev.to/api/articles/me/published?per_page=6',
+  // You can customise this list any way you like
+  const articles = [
     {
-      headers: {
-        'api-key': process.env.DEV_TO_API_KEY!,
-      },
-    }
-  );
-
-  const data = await res.json();
+      id: 1,
+      title: 'Building My VS Code Themed Portfolio',
+      description: 'A walkthrough of how I customised a Next.js VS Code-themed portfolio.',
+      url: '#', // or a real link later
+      readable_publish_date: 'Today',
+      tag_list: ['portfolio', 'nextjs', 'learning'],
+    },
+    {
+      id: 2,
+      title: 'My Networking & Cybersecurity Learning Journey',
+      description: 'Notes and reflections from my labs on Cisco, Linux and security.',
+      url: '#',
+      readable_publish_date: 'Recently',
+      tag_list: ['networking', 'cybersecurity'],
+    },
+  ];
 
   return {
-    props: { title: 'Articles', articles: data },
-    revalidate: 60,
+    props: { title: 'Achievements', articles },
   };
 }
+
 
 export default ArticlesPage;

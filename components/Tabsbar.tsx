@@ -11,7 +11,7 @@ const Tabsbar = () => {
       <Tab icon="/logos/js_icon.svg" filename="projects.js" path="/projects" />
       <Tab
         icon="/logos/json_icon.svg"
-        filename="articles.json"
+        filename="achievements.json"
         path="/articles"
       />
       <Tab

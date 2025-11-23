@@ -14,7 +14,7 @@ export default function HomePage() {
       type: 'variable',
     },
     { code: '  const developerInfo = {', type: 'variable' },
-    { code: "    name: 'Nitin Ranganath',", type: 'array-item' },
+    { code: "    name: 'Lucas Chong',", type: 'array-item' },
     { code: "    role: 'Full Stack Developer',", type: 'array-item' },
     { code: "    bio: 'Building modern web experiences'", type: 'array-item' },
     { code: '  };', type: 'array-end' },
@@ -28,10 +28,10 @@ export default function HomePage() {
     { code: '  }, []);', type: 'close' },
     { code: '', type: 'blank' },
     { code: '  return (', type: 'return-object' },
-    { code: '    <main className="hero-container">', type: 'object-method' },
+    { code: '    <main className="pro-comm">', type: 'object-method' },
     { code: '      <h1>{developerInfo.name}</h1>', type: 'object-method' },
     { code: '      <p>{developerInfo.role}</p>', type: 'object-method' },
-    { code: '      <div className="cta">', type: 'object-method' },
+    { code: '      <div className="a1">', type: 'object-method' },
     {
       code: '        <Link href="/projects">View Projects</Link>',
       type: 'object-method',
@@ -91,14 +91,14 @@ export default function HomePage() {
 
         <div className={styles.infoSection}>
           <h1 className={styles.developerName}>
-            Nitin <span className={styles.accentText}>Ranganath</span>
+            Lucas <span className={styles.accentText}>Chong</span>
           </h1>
+          <h2>My Digital Portfolio</h2>
 
-          <div className={styles.developerRole}>Full Stack Web Developer</div>
+          <div className={styles.developerRole}>Full Time Student</div>
 
           <p className={styles.bio}>
-            I build elegant, responsive web applications with modern
-            technologies. Focused on clean code and intuitive user experiences.
+            This digital portfolio was customized to showcase my technological competencies and diligence to learn, inspire, and work.
           </p>
 
           <div className={styles.actionLinks}>

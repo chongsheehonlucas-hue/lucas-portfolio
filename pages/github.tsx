@@ -52,7 +52,7 @@ const GithubPage = ({ repos, user }: GithubPageProps) => {
         </div>
 
         <div className={styles.sectionHeader}>
-          <h3 className={styles.sectionTitle}>Popular Repositories</h3>
+          <h3 className={styles.sectionTitle}></h3>
         </div>
         <div className={styles.reposContainer}>
           {repos.map((repo) => (
