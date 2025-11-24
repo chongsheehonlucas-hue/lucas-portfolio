@@ -13,16 +13,16 @@ const ArticlesPage = ({ articles }: ArticlesPageProps) => {
     <div className={styles.layout}>
       <h1 className={styles.pageTitle}>My Achievements</h1>
       <p className={styles.pageSubtitle}>
-        Recent posts from{' '}
-        <a
+        A page dedicated to certificates{' '}
+        {/* <a
           href="https://gov.sg"
           target="_blank"
           rel="noopener"
           className={styles.underline}
         >
           dev.to
-        </a>{' '}
-        where I share insights and tutorials about web development.
+        </a>{' '} */}
+         or awards I have achieved throughout my years.
       </p>
       <div className={styles.container}>
         {articles.map((article) => (
@@ -38,18 +38,65 @@ export async function getStaticProps() {
   const articles = [
     {
       id: 1,
-      title: 'Building My VS Code Themed Portfolio',
-      description: 'A walkthrough of how I customised a Next.js VS Code-themed portfolio.',
-      url: '#', // or a real link later
+      title: 'Edusave Award 2017',
+      description: 'An award for improvement in academic performance and demonstrating good conduct.',
+      url: 'https://drive.google.com/file/d/1evIacvZHrQapuX8d9UAuOxTHixe7v-I8/view?usp=drive_link', // or a real link later
       readable_publish_date: 'Today',
+      cover_image: '/achievement/edusave2017.jpg',
       tag_list: ['portfolio', 'nextjs', 'learning'],
     },
     {
       id: 2,
-      title: 'My Networking & Cybersecurity Learning Journey',
-      description: 'Notes and reflections from my labs on Cisco, Linux and security.',
-      url: '#',
+      title: 'Edusave Award 2022',
+      description: 'Edusave award for good merit.',
+      url: 'https://drive.google.com/file/d/1WgNga0V8Z3gTs8VPkb7yXwf9ftjcOEuU/view?usp=drive_link',
       readable_publish_date: 'Recently',
+      cover_image: '/achievement/edusave2022.jpg',
+      tag_list: ['networking', 'cybersecurity'],
+    },
+    {
+      id: 3,
+      title: 'Edusave Award 2025',
+      description: 'An award for improvement in academic performance and demonstrating good conduct.',
+      url: 'https://drive.google.com/file/d/1KjTncUpSfLAOx2dW-DRi57e1W3cvU3qd/view?usp=drive_link',
+      readable_publish_date: 'Recently',
+      cover_image: '/achievement/edusave2025.jpg',
+      tag_list: ['networking', 'cybersecurity'],
+    },
+    {
+      id: 4,
+      title: 'Edusave Award 2025',
+      description: 'An award for improvement in academic performance and demonstrating good conduct.',
+      url: 'https://drive.google.com/file/d/1KjTncUpSfLAOx2dW-DRi57e1W3cvU3qd/view?usp=drive_link',
+      readable_publish_date: 'Recently',
+      cover_image: '/achievement/edusave2025.jpg',
+      tag_list: ['networking', 'cybersecurity'],
+    },
+    {
+      id: 5,
+      title: 'Edusave Award 2025',
+      description: 'An award for improvement in academic performance and demonstrating good conduct.',
+      url: 'https://drive.google.com/file/d/1KjTncUpSfLAOx2dW-DRi57e1W3cvU3qd/view?usp=drive_link',
+      readable_publish_date: 'Recently',
+      cover_image: '/achievement/edusave2025.jpg',
+      tag_list: ['networking', 'cybersecurity'],
+    },
+    {
+      id: 6,
+      title: 'Edusave Award 2025',
+      description: 'An award for improvement in academic performance and demonstrating good conduct.',
+      url: 'https://drive.google.com/file/d/1KjTncUpSfLAOx2dW-DRi57e1W3cvU3qd/view?usp=drive_link',
+      readable_publish_date: 'Recently',
+      cover_image: '/achievement/edusave2025.jpg',
+      tag_list: ['networking', 'cybersecurity'],
+    },
+    {
+      id: 7,
+      title: 'Edusave Award 2025',
+      description: 'An award for improvement in academic performance and demonstrating good conduct.',
+      url: 'https://drive.google.com/file/d/1KjTncUpSfLAOx2dW-DRi57e1W3cvU3qd/view?usp=drive_link',
+      readable_publish_date: 'Recently',
+      cover_image: '/achievement/edusave2025.jpg',
       tag_list: ['networking', 'cybersecurity'],
     },
   ];
