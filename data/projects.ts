@@ -8,35 +8,35 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: 'Driwwwle',
+    title: 'Tower of Hanoi Solver',
     description:
-      'Discover creative websites and developers. A portal for you to share your projects.',
-    logo: '/logos/driwwwle.svg',
-    link: 'https://github.com/itsnitinr/driwwwle',
-    slug: 'driwwwle',
+      'Stuck on a Tower of Hanoi puzzle? This code shows the step-by-step solution for every number of disk.',
+    logo: '/logos/python-svgrepo-com.svg',
+    link: 'https://github.com/chongsheehonlucas-hue/tower-of-hanoi',
+    slug: 'TOH',
   },
   {
-    title: 'VSCode Portfolio',
+    title: 'Digital Portfolio',
     description:
       'A Visual Studio Code themed developer portfolio built with Next.js and CSS Modules.',
     logo: '/logos/vsc.svg',
-    link: 'https://github.com/itsnitinr/vscode-portfolio',
+    link: 'https://github.com/chongsheehonlucas-hue/lucas-portfolio',
     slug: 'vscode-portfolio',
   },
   {
-    title: 'Subtrackt',
+    title: 'Password Generator',
     description:
-      'A simple and elegant way to track your subscriptions and save money.',
-    logo: '/logos/subtrackt.svg',
-    link: 'https://github.com/itsnitinr/subtrackt',
-    slug: 'subtrackt',
+      'A simple and efficient way to generate completely random passwords to align with requirements needed.',
+    logo: '/logos/lock-security-secure-password-protect-svgrepo-com.svg',
+    link: 'https://github.com/chongsheehonlucas-hue/specific-password-generator',
+    slug: 'passgen',
   },
   {
-    title: 'Coolify Deployments',
+    title: 'TP Vending Machine Website',
     description:
-      'VSCode extension to track and deploy your Coolify applications.',
-    logo: '/logos/coolify.svg',
-    link: 'https://github.com/itsnitinr/coolify-vscode-extension',
-    slug: 'coolify-vscode-extension',
+      'A project to prototype TP vending machine orders from a website.',
+    logo: '/logos/sqlicon.svg',
+    link: 'https://github.com/chongsheehonlucas-hue/TP-vendingmachine',
+    slug: 'TP-vending',
   },
 ];
