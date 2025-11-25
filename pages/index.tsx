@@ -15,7 +15,7 @@ export default function HomePage() {
     },
     { code: '  const developerInfo = {', type: 'variable' },
     { code: "    name: 'Lucas Chong',", type: 'array-item' },
-    { code: "    role: 'Full Stack Developer',", type: 'array-item' },
+    { code: "    role: 'Full Time Student',", type: 'array-item' },
     { code: "    bio: 'Building modern web experiences'", type: 'array-item' },
     { code: '  };', type: 'array-end' },
     { code: '', type: 'blank' },

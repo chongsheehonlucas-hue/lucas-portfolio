@@ -14,7 +14,7 @@ const AboutPage = () => {
               I primarily specialize in <span className={styles.highlight}>Networking</span> and <span className={styles.highlight}>Penetration Testing.</span>
             </p>
             <p className={styles.paragraph}>
-              I mostly spend time on school tasks, but you may find me doing personal projects or indulged in my recreational activities
+              I mostly spend time on school tasks, but you may find me doing personal projects or indulged in my recreational activities.
             </p>
           </section>
 
@@ -22,34 +22,37 @@ const AboutPage = () => {
             <h2 className={styles.sectionTitle}>Experience</h2>
             <p className={styles.paragraph}>
               Currently at <span className={styles.highlight}>Temasek Polytechnic</span> as
-              Software Engineer 2, working with a lean team of 4 frontend
-              engineers to build a next-gen video creation suite for the people
-              of video.
+              a Year 2, with striving aspirations for excellence and peckish 
+              for <span className={styles.highlight}>knowledge</span>,
+              even beyond curriculum.
             </p>
             <p className={styles.paragraph}>
-              I&apos;ve been leading the development efforts for bringing
-              collaborative video reviewing and editing to the platform. I also
-              maintain our in-house component library, icon library and website.
+              I&apos;ve completed numerous IT relevant modules such as {' '}
+              <span className={styles.highlight}>Computational Thinking</span>,{' '}
+              <span className={styles.highlight}>Ethical Hacking</span>,{' '}
+              <span className={styles.highlight}>Enterprise Networking</span>,{' '}
+              <span className={styles.highlight}>Incident Reponse and Management</span> and more!
             </p>
           </section>
 
           <section className={styles.section}>
-            <h2 className={styles.sectionTitle}>Writing</h2>
+            <h2 className={styles.sectionTitle}>Skills</h2>
             <p className={styles.paragraph}>
-              I&apos;ve had the pleasure of writing for some amazing
-              publications like{' '}
-              <span className={styles.highlight}>100ms Blog</span>,{' '}
-              <span className={styles.highlight}>LogRocket Blog</span>,{' '}
-              <span className={styles.highlight}>DEV.to</span> and more as a
-              freelance technical author.
+              I&apos;ve had the pleasure of learning tools utilized 
+              for cybersecurity such as{' '}
+              <span className={styles.highlight}>Wireshark</span>,{' '}
+              <span className={styles.highlight}>Metasploit</span>,{' '}
+              <span className={styles.highlight}>Kali Linux</span> and 
+              other tools in areas such as Networking.
+  
             </p>
           </section>
 
           <section className={styles.section}>
             <h2 className={styles.sectionTitle}>Beyond Code</h2>
             <p className={styles.paragraph}>
-              Aside from programming and writing, I like to read a good
-              dystopian novel, listen to calm piano music or just laze around.
+              When I&apos;m not tangled with programming and studying, I unwind by taking breaks and playing video games
+              On certain occasions, I relieve myself from academics and destress by eating hearty meals!
             </p>
           </section>
         </div>
